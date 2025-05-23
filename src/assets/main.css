@@ -1,0 +1,21 @@
+@import "./base.css";
+
+#app {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(0, 167, 112);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: rgb(0, 179, 119);
+  }
+}

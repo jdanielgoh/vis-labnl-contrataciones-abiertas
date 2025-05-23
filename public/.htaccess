@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On RewriteBase /vis-labnl-contrataciones-abiertas/ RewriteRule
+  ^/vis-labnl-contrataciones-abiertas/index\.html$ - [L] RewriteCond
+  %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule .
+  /vis-labnl-contrataciones-abiertas/index.html [L]
+</IfModule>
