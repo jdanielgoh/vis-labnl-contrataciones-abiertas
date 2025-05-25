@@ -5,6 +5,7 @@ import ContratacionesRed from "@/components/ContratacionesRed.vue";
 <template>
   <main>
     <h1>Así se gasta en Nuevo León</h1>
+    <p>Análisis en proceso y no verificado al 100% *</p>
     <div class="contenedor-texto">
       <p>
         En esta visualización se representan las relaciones entre dependencias
