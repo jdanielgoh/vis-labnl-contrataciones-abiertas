@@ -1,32 +1,25 @@
-# codesandbox-template-vue
+# Así se gasta en Nuevo León
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto consiste en una visualización de datos sobre contrataciones abiertas desarrollada en el "Aprender haciendo: Visualización creativa de datos", organizado por [labnl](https://www.labnuevoleon.mx/) en el marco de la Semana de Gobierno Abierto.
 
-[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/codesandbox/codesandbox-template-vue/main)
+![Así se gasta en Nuevo León](/public/asi-se-gasta.png)
+El proyecto está desarrollado con Vite, Vue y usa D3.js en la visualización.
 
+Para ejecutar el proyecto en tu computadora, tienes que clonar este repositorio y tener instalada una versión 22 de node. Ya en la carpeta:
 
-## 👀 Want to learn more?
-
-- [CodeSandbox Projects — Docs](https://docs.codesandbox.io)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
-- [Vue — Docs](https://vuejs.org/guide)
-- [Vite Configuration Reference](https://vitejs.dev/config/)
-
-
-
-## Project Setup
+## Instalación de dependencias
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar en servidor local y "hot-reload"
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Compilar y minificar para desplegar en servidor:
 
 ```sh
 npm run build
